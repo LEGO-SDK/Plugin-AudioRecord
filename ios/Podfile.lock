@@ -1,0 +1,110 @@
+PODS:
+  - LEGO-SDK (0.5.1):
+    - LEGO-SDK/API (= 0.5.1)
+    - LEGO-SDK/AutoInject (= 0.5.1)
+    - LEGO-SDK/Core (= 0.5.1)
+  - LEGO-SDK/API (0.5.1):
+    - LEGO-SDK/API/Native (= 0.5.1)
+    - LEGO-SDK/API/UI (= 0.5.1)
+    - LEGO-SDK/API/WebView (= 0.5.1)
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native (0.5.1):
+    - LEGO-SDK/API/Native/Call (= 0.5.1)
+    - LEGO-SDK/API/Native/Check (= 0.5.1)
+    - LEGO-SDK/API/Native/DataModel (= 0.5.1)
+    - LEGO-SDK/API/Native/Device (= 0.5.1)
+    - LEGO-SDK/API/Native/FileManager (= 0.5.1)
+    - LEGO-SDK/API/Native/HTTPRequest (= 0.5.1)
+    - LEGO-SDK/API/Native/Notification (= 0.5.1)
+    - LEGO-SDK/API/Native/OpenURL (= 0.5.1)
+    - LEGO-SDK/API/Native/Pasteboard (= 0.5.1)
+    - LEGO-SDK/API/Native/UserDefaults (= 0.5.1)
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/Call (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/Check (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/DataModel (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/Device (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/FileManager (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/HTTPRequest (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/Notification (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/OpenURL (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/Pasteboard (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/Native/UserDefaults (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI (0.5.1):
+    - LEGO-SDK/API/UI/ActionSheet (= 0.5.1)
+    - LEGO-SDK/API/UI/AlertView (= 0.5.1)
+    - LEGO-SDK/API/UI/ImagePreviewer (= 0.5.1)
+    - LEGO-SDK/API/UI/ModalController (= 0.5.1)
+    - LEGO-SDK/API/UI/NavigationController (= 0.5.1)
+    - LEGO-SDK/API/UI/NavigationItem (= 0.5.1)
+    - LEGO-SDK/API/UI/PageState (= 0.5.1)
+    - LEGO-SDK/API/UI/Picker (= 0.5.1)
+    - LEGO-SDK/API/UI/ProgressView (= 0.5.1)
+    - LEGO-SDK/API/UI/Refresh (= 0.5.1)
+    - LEGO-SDK/API/UI/Toast (= 0.5.1)
+    - LEGO-SDK/API/UI/ViewController (= 0.5.1)
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/ActionSheet (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/AlertView (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/ImagePreviewer (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/ModalController (0.5.1):
+    - LEGO-SDK/API/UI/ViewController
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/NavigationController (0.5.1):
+    - LEGO-SDK/API/UI/ViewController
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/NavigationItem (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/PageState (0.5.1):
+    - LEGO-SDK/API/UI/ViewController
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/Picker (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/ProgressView (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/Refresh (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/Toast (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/UI/ViewController (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/WebView (0.5.1):
+    - LEGO-SDK/API/WebView/Pack (= 0.5.1)
+    - LEGO-SDK/API/WebView/Preload (= 0.5.1)
+    - LEGO-SDK/API/WebView/Skeleton (= 0.5.1)
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/WebView/Pack (0.5.1):
+    - LEGO-SDK/Core
+    - SSZipArchive
+  - LEGO-SDK/API/WebView/Preload (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/API/WebView/Skeleton (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/AutoInject (0.5.1):
+    - LEGO-SDK/Core
+  - LEGO-SDK/Core (0.5.1)
+  - SSZipArchive (2.0.7)
+
+DEPENDENCIES:
+  - LEGO-SDK
+
+SPEC CHECKSUMS:
+  LEGO-SDK: 673589c6a5d2986b0a995bb1b80ba46626795a4e
+  SSZipArchive: 8c197761d66bd33e7f8b5b51ee57dff303971150
+
+PODFILE CHECKSUM: 23b7eea65dd781c35598daca367580ffd7101b27
+
+COCOAPODS: 1.3.1

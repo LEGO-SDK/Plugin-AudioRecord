@@ -1,0 +1,11 @@
+{
+    "name": "AudioRecord",
+    "api": "Plugin.AudioRecord",
+    "request": {
+        "opt": "string",
+        "duration": "int"
+    },
+    "response": {
+        "fileURL": "string"
+    }
+}

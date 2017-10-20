@@ -1,0 +1,9 @@
+{
+  "name": "create-legosdk-plugin",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node script/index.js"
+  },
+  "author": "PonyCui",
+  "license": "Apache License 2.0"
+}
