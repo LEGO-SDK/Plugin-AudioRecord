@@ -16,7 +16,7 @@
 @interface LGOAudioRecordRequest: LGORequest
 
 @property (nonatomic, copy) NSString *opt;
-@property (nonatomic, assign) NSInteger duration;
+//@property (nonatomic, assign) NSInteger duration;
 
 @end
 
@@ -63,7 +63,7 @@
     LGOAudioRecordperation *operation = [LGOAudioRecordperation new];
     operation.request = [LGOAudioRecordRequest new];
     operation.request.opt = [dictionary[@"opt"] isKindOfClass:[NSString class]] ? dictionary[@"opt"] : nil;
-    operation.request.duration = [dictionary[@"duration"] isKindOfClass:[NSNumber class]] ? [dictionary[@"duration"] integerValue] : 0;
+//    operation.request.duration = [dictionary[@"duration"] isKindOfClass:[NSNumber class]] ? [dictionary[@"duration"] integerValue] : 0;
     return operation;
 }
 
@@ -117,19 +117,13 @@ static PluginAudioRecorder *singleton = nil;
         return;
     }
     
-    NSError *recorderError;
-//    [[PluginAudioRecorder sharedInstance] initRecorderWithError:recorderError];
-//    if (recorderError) {
-//        self.callbackBlock([[LGOAudioRecordResponse new] reject:recorderError]);
-//        return;
-//    }
-    
     if ([operation.request.opt isEqualToString:@"start"]) {
         if (self.currentRecorder.isRecording) {
             [self.currentRecorder stop];
             self.currentRecorder = nil;
             self.currentRecorder.delegate = nil;
         }
+        NSError *recorderError;
         [[PluginAudioRecorder sharedInstance] initRecorderWithError:recorderError];
         if (recorderError) {
             self.callbackBlock([[LGOAudioRecordResponse new] reject:recorderError]);
