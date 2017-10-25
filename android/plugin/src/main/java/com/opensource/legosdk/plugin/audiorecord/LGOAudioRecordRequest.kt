@@ -10,6 +10,6 @@ import com.opensource.legosdk.core.LGORequestContext
 class LGOAudioRecordRequest(context: LGORequestContext?) : LGORequest(context) {
 
     var opt: String? = null
-    var duration: Int? = null
+//    var duration: Int? = null
 
 }
